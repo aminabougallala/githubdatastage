@@ -1,0 +1,6596 @@
+{
+  "primary_pipeline" : "c1f4b725-2ff1-470d-8f31-07e0c739b745",
+  "pipelines" : [ {
+    "nodes" : [ {
+      "outputs" : [ {
+        "id" : "9f93a8d1-52dd-48d4-9d2f-5fc89ef236cb",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "b20b548b-e444-486f-ade6-fd98bcd31c4a"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "11a09938-47f9-4040-87f9-7e65f9895151",
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "dashdb",
+      "inputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        }
+      } ],
+      "connection" : {
+        "ref" : "743fa517-a150-4bc1-a455-f8a9e5d3544b",
+        "project_ref" : "b9d9ffc8-56ee-4a5c-b686-a5d9ffc77144",
+        "name" : "Data Fabric Trial - Db2 Warehouse",
+        "properties" : {
+          "_java._heap_size" : 256,
+          "before_after.after_node" : "",
+          "before_after.before_node.fail_on_error" : true,
+          "before_after.after_node.fail_on_error" : true,
+          "before_after.before_node" : "",
+          "enableSchemalessDesign" : false,
+          "schema_name" : "BANKING",
+          "table_name" : "MORTGAGE_APPLICANTS",
+          "before_after.before" : "",
+          "before_after.before.fail_on_error" : true,
+          "node_number" : 0,
+          "read_mode" : "general",
+          "showDataVisualization" : false,
+          "before_after.after" : "",
+          "node_count" : 1,
+          "before_after.after.fail_on_error" : true
+        }
+      },
+      "id" : "f4c3fe8a-6c91-4c5e-8b8c-1d9cb8971e92",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/dashdb.svg",
+          "x_pos" : 744.48,
+          "label" : "MORTGAGE_APPLICANTS_1",
+          "y_pos" : 63.36
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "output_count" : 1,
+        "input_count" : 0,
+        "execmode" : "default_par",
+        "preserve" : -3
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "2416d4b3-8417-4bbf-9fdb-1174fe1269f0",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "14e4fdc9-8237-4116-aa21-d559d59d5478"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "d6a574ee-84f8-4793-b413-945e3c3a21f6",
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "dashdb",
+      "inputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        }
+      } ],
+      "connection" : {
+        "ref" : "743fa517-a150-4bc1-a455-f8a9e5d3544b",
+        "project_ref" : "b9d9ffc8-56ee-4a5c-b686-a5d9ffc77144",
+        "name" : "Data Fabric Trial - Db2 Warehouse",
+        "properties" : {
+          "_java._heap_size" : 256,
+          "before_after.after_node" : "",
+          "before_after.before_node.fail_on_error" : true,
+          "before_after.after_node.fail_on_error" : true,
+          "before_after.before_node" : "",
+          "enableSchemalessDesign" : false,
+          "schema_name" : "BANKING",
+          "table_name" : "MORTGAGE_APPLICATIONS",
+          "before_after.before" : "",
+          "before_after.before.fail_on_error" : true,
+          "node_number" : 0,
+          "read_mode" : "general",
+          "showDataVisualization" : false,
+          "before_after.after" : "",
+          "node_count" : 1,
+          "before_after.after.fail_on_error" : true
+        }
+      },
+      "id" : "ee0e0fd3-f7ea-4170-855a-b841730d8993",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/dashdb.svg",
+          "x_pos" : 475.2,
+          "label" : "MORTGAGE_APPLICATIONS_1",
+          "y_pos" : 300.96
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "output_count" : 1,
+        "input_count" : 0,
+        "execmode" : "default_par",
+        "preserve" : -3
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "2dcf259a-6379-4234-a36e-04193a372ee8",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "d66f0c69-04ba-445b-ac29-57f79793b2f4"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "61f6f538-a4aa-4ba1-9850-6a5c8f38651b",
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "PxJoin",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "ee0e0fd3-f7ea-4170-855a-b841730d8993",
+          "type_attr" : "PRIMARY",
+          "id" : "14e4fdc9-8237-4116-aa21-d559d59d5478",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_1",
+                "y_pos" : -20,
+                "height" : 80
+              }, {
+                "temporary" : false,
+                "width" : 200,
+                "x_pos" : -20,
+                "id" : "dec-9",
+                "position" : "middle",
+                "label" : "1,000 rows\n233 rows/sec",
+                "y_pos" : 28,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkFinishedStyle___QBKP8"
+            }
+          },
+          "link_name" : "Link_1",
+          "port_id_ref" : "2416d4b3-8417-4bbf-9fdb-1174fe1269f0"
+        } ],
+        "id" : "821c30ab-a89e-4d51-b036-857b2f6d441a",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 2,
+              "max" : 2147483646
+            }
+          }
+        },
+        "schema_ref" : "d6a574ee-84f8-4793-b413-945e3c3a21f6",
+        "parameters" : {
+          "runtime_column_propagation" : 0
+        }
+      }, {
+        "links" : [ {
+          "node_id_ref" : "f4c3fe8a-6c91-4c5e-8b8c-1d9cb8971e92",
+          "type_attr" : "PRIMARY",
+          "id" : "b20b548b-e444-486f-ade6-fd98bcd31c4a",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_2",
+                "y_pos" : -20,
+                "height" : 80
+              }, {
+                "temporary" : false,
+                "width" : 200,
+                "x_pos" : -20,
+                "id" : "dec-9",
+                "position" : "middle",
+                "label" : "1,000 rows\n238 rows/sec",
+                "y_pos" : 28,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkFinishedStyle___QBKP8"
+            }
+          },
+          "link_name" : "Link_2",
+          "port_id_ref" : "9f93a8d1-52dd-48d4-9d2f-5fc89ef236cb"
+        } ],
+        "id" : "ed9157e0-dd20-441b-b950-156bd35bdd5d",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 2,
+              "max" : 2147483646
+            }
+          }
+        },
+        "schema_ref" : "11a09938-47f9-4040-87f9-7e65f9895151",
+        "parameters" : {
+          "runtime_column_propagation" : 0
+        }
+      } ],
+      "id" : "bf4e7704-e057-40d8-8e48-dd533529b7f0",
+      "type" : "execution_node",
+      "app_data" : {
+        "datastage" : {
+          "inputs_order" : "821c30ab-a89e-4d51-b036-857b2f6d441a|ed9157e0-dd20-441b-b950-156bd35bdd5d",
+          "outputs_order" : "2dcf259a-6379-4234-a36e-04193a372ee8"
+        },
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/PxJoin.svg",
+          "x_pos" : 744.48,
+          "label" : "Join_on_ID",
+          "y_pos" : 300.96
+        }
+      },
+      "parameters" : {
+        "showPartType" : true,
+        "keyProperties" : [ {
+          "key" : "ID"
+        } ],
+        "showCollType" : false,
+        "enableSchemalessDesign" : false,
+        "preserve" : -3,
+        "operator" : "innerjoin",
+        "inputName" : "Link_1",
+        "showSortOptions" : false,
+        "combinability" : "auto",
+        "inputcolProperties" : [ {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "ID",
+          "TempOldColumnName" : "ID",
+          "ColumnName" : "ID",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "INCOME",
+          "TempOldColumnName" : "INCOME",
+          "ColumnName" : "INCOME",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "APPLIEDONLINE",
+          "TempOldColumnName" : "APPLIEDONLINE",
+          "ColumnName" : "APPLIEDONLINE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "RESIDENCE",
+          "TempOldColumnName" : "RESIDENCE",
+          "ColumnName" : "RESIDENCE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "TempOldColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "ColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "TempOldColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "ColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NUMBER_OF_CARDS",
+          "TempOldColumnName" : "NUMBER_OF_CARDS",
+          "ColumnName" : "NUMBER_OF_CARDS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "CREDITCARD_DEBT",
+          "TempOldColumnName" : "CREDITCARD_DEBT",
+          "ColumnName" : "CREDITCARD_DEBT",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "LOANS",
+          "TempOldColumnName" : "LOANS",
+          "ColumnName" : "LOANS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "LOAN_AMOUNT",
+          "TempOldColumnName" : "LOAN_AMOUNT",
+          "ColumnName" : "LOAN_AMOUNT",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        } ],
+        "InputlinkOrderingList" : [ {
+          "link_label" : "Left",
+          "link_name" : "Link_1"
+        }, {
+          "link_label" : "Right",
+          "link_name" : "Link_2"
+        } ],
+        "output_count" : 1,
+        "execmode" : "default_par",
+        "input_count" : 2
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "e7b32025-f054-44c0-a791-7b9688515ccc",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "548fd80c-9edb-409e-9af7-e73647b50e1b"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 2147483647
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "b0ffa8cd-fa1b-44bd-9b22-90124be1efe2",
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "PxFilter",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "bf4e7704-e057-40d8-8e48-dd533529b7f0",
+          "type_attr" : "PRIMARY",
+          "id" : "d66f0c69-04ba-445b-ac29-57f79793b2f4",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_3",
+                "y_pos" : -20,
+                "height" : 80
+              }, {
+                "temporary" : false,
+                "width" : 200,
+                "x_pos" : -20,
+                "id" : "dec-9",
+                "position" : "middle",
+                "label" : "1,000 rows\n16 rows/sec",
+                "y_pos" : 28,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkFinishedStyle___QBKP8"
+            }
+          },
+          "link_name" : "Link_3",
+          "port_id_ref" : "2dcf259a-6379-4234-a36e-04193a372ee8"
+        } ],
+        "id" : "83c512d9-b313-4984-bef1-bff7eb135160",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "61f6f538-a4aa-4ba1-9850-6a5c8f38651b",
+        "parameters" : {
+          "runtime_column_propagation" : 0
+        }
+      } ],
+      "id" : "6164999d-f3b3-40c3-9b7b-f22490bddca3",
+      "type" : "execution_node",
+      "app_data" : {
+        "datastage" : {
+          "inputs_order" : "83c512d9-b313-4984-bef1-bff7eb135160",
+          "outputs_order" : "e7b32025-f054-44c0-a791-7b9688515ccc"
+        },
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/PxFilter.svg",
+          "x_pos" : 950.4,
+          "label" : "Filter_State_Code",
+          "y_pos" : 300.96
+        }
+      },
+      "parameters" : {
+        "showPartType" : true,
+        "whereProperties" : [ {
+          "where" : "STATE_CODE = 'CA'",
+          "target" : "0"
+        } ],
+        "showCollType" : false,
+        "enableSchemalessDesign" : false,
+        "preserve" : -3,
+        "inputName" : "Link_3",
+        "showSortOptions" : false,
+        "combinability" : "auto",
+        "OutputlinkOrderingList" : [ {
+          "link_label" : "0",
+          "link_name" : "Link_4"
+        } ],
+        "inputcolProperties" : [ {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "ID",
+          "TempOldColumnName" : "ID",
+          "ColumnName" : "ID",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "INCOME",
+          "TempOldColumnName" : "INCOME",
+          "ColumnName" : "INCOME",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "APPLIEDONLINE",
+          "TempOldColumnName" : "APPLIEDONLINE",
+          "ColumnName" : "APPLIEDONLINE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "RESIDENCE",
+          "TempOldColumnName" : "RESIDENCE",
+          "ColumnName" : "RESIDENCE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "TempOldColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "ColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "TempOldColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "ColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NUMBER_OF_CARDS",
+          "TempOldColumnName" : "NUMBER_OF_CARDS",
+          "ColumnName" : "NUMBER_OF_CARDS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "CREDITCARD_DEBT",
+          "TempOldColumnName" : "CREDITCARD_DEBT",
+          "ColumnName" : "CREDITCARD_DEBT",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "LOANS",
+          "TempOldColumnName" : "LOANS",
+          "ColumnName" : "LOANS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "LOAN_AMOUNT",
+          "TempOldColumnName" : "LOAN_AMOUNT",
+          "ColumnName" : "LOAN_AMOUNT",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAME",
+          "TempOldColumnName" : "NAME",
+          "ColumnName" : "NAME",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "STREET_ADDRESS",
+          "TempOldColumnName" : "STREET_ADDRESS",
+          "ColumnName" : "STREET_ADDRESS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "CITY",
+          "TempOldColumnName" : "CITY",
+          "ColumnName" : "CITY",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "STATE",
+          "TempOldColumnName" : "STATE",
+          "ColumnName" : "STATE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "STATE_CODE",
+          "TempOldColumnName" : "STATE_CODE",
+          "ColumnName" : "STATE_CODE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "ZIP_CODE",
+          "TempOldColumnName" : "ZIP_CODE",
+          "ColumnName" : "ZIP_CODE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Key, Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "EMAIL_ADDRESS",
+          "TempOldColumnName" : "EMAIL_ADDRESS",
+          "ColumnName" : "EMAIL_ADDRESS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : true,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "PHONE_NUMBER",
+          "TempOldColumnName" : "PHONE_NUMBER",
+          "ColumnName" : "PHONE_NUMBER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "GENDER",
+          "TempOldColumnName" : "GENDER",
+          "ColumnName" : "GENDER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "SOCIAL_SECURITY_NUMBER",
+          "TempOldColumnName" : "SOCIAL_SECURITY_NUMBER",
+          "ColumnName" : "SOCIAL_SECURITY_NUMBER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "EDUCATION",
+          "TempOldColumnName" : "EDUCATION",
+          "ColumnName" : "EDUCATION",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "EMPLOYMENT_STATUS",
+          "TempOldColumnName" : "EMPLOYMENT_STATUS",
+          "ColumnName" : "EMPLOYMENT_STATUS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "MARITAL_STATUS",
+          "TempOldColumnName" : "MARITAL_STATUS",
+          "ColumnName" : "MARITAL_STATUS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        } ],
+        "output_count" : 1,
+        "reject" : " ",
+        "execmode" : "default_par",
+        "input_count" : 1,
+        "first" : " "
+      }
+    }, {
+      "op" : "PxSequentialFile",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "8f00fa15-65ed-4051-a0cd-e817c46c7ff8",
+          "type_attr" : "PRIMARY",
+          "id" : "53636134-a356-4c96-bf6a-424735b1ed88",
+          "app_data" : {
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--collection.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "width" : 50,
+                "tooltip" : "Collection",
+                "x_pos" : -15,
+                "id" : "dec-9M",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_10",
+                "y_pos" : -20,
+                "height" : 80
+              }, {
+                "temporary" : false,
+                "width" : 200,
+                "x_pos" : -20,
+                "id" : "dec-9",
+                "position" : "middle",
+                "label" : "0 rows\n0 rows/sec",
+                "y_pos" : 28,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkFinishedStyle___QBKP8"
+            }
+          },
+          "link_name" : "Link_10",
+          "port_id_ref" : "a394e117-1047-4746-b089-8c8aa72cc6ab"
+        } ],
+        "id" : "36db9c9b-fe46-47aa-96b9-99859131f7f8",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "b0843162-6596-42ec-a02b-797fc2f26183",
+        "parameters" : {
+          "final_delim" : "end",
+          "" : [ ],
+          "showPartType" : false,
+          "null_field_sep_flag" : false,
+          "null_field" : "'NULL'",
+          "firstLineColumnNames" : "firstLineColumnNames",
+          "showCollType" : true,
+          "enableFlowAcpControl" : true,
+          "inputName" : "Link_4",
+          "showSortOptions" : false,
+          "append-overwrite" : "overwrite",
+          "rejects" : "continue",
+          "inputcolProperties" : [ {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "ID",
+            "TempOldColumnName" : "ID",
+            "ColumnName" : "ID",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "INCOME",
+            "TempOldColumnName" : "INCOME",
+            "ColumnName" : "INCOME",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "APPLIEDONLINE",
+            "TempOldColumnName" : "APPLIEDONLINE",
+            "ColumnName" : "APPLIEDONLINE",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "RESIDENCE",
+            "TempOldColumnName" : "RESIDENCE",
+            "ColumnName" : "RESIDENCE",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "YRS_AT_CURRENT_ADDRESS",
+            "TempOldColumnName" : "YRS_AT_CURRENT_ADDRESS",
+            "ColumnName" : "YRS_AT_CURRENT_ADDRESS",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+            "TempOldColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+            "ColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "NUMBER_OF_CARDS",
+            "TempOldColumnName" : "NUMBER_OF_CARDS",
+            "ColumnName" : "NUMBER_OF_CARDS",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "CREDITCARD_DEBT",
+            "TempOldColumnName" : "CREDITCARD_DEBT",
+            "ColumnName" : "CREDITCARD_DEBT",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "LOANS",
+            "TempOldColumnName" : "LOANS",
+            "ColumnName" : "LOANS",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "LOAN_AMOUNT",
+            "TempOldColumnName" : "LOAN_AMOUNT",
+            "ColumnName" : "LOAN_AMOUNT",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "NAME",
+            "TempOldColumnName" : "NAME",
+            "ColumnName" : "NAME",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "STREET_ADDRESS",
+            "TempOldColumnName" : "STREET_ADDRESS",
+            "ColumnName" : "STREET_ADDRESS",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "CITY",
+            "TempOldColumnName" : "CITY",
+            "ColumnName" : "CITY",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "STATE",
+            "TempOldColumnName" : "STATE",
+            "ColumnName" : "STATE",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "STATE_CODE",
+            "TempOldColumnName" : "STATE_CODE",
+            "ColumnName" : "STATE_CODE",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "ZIP_CODE",
+            "TempOldColumnName" : "ZIP_CODE",
+            "ColumnName" : "ZIP_CODE",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "EMAIL_ADDRESS",
+            "TempOldColumnName" : "EMAIL_ADDRESS",
+            "ColumnName" : "EMAIL_ADDRESS",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "PHONE_NUMBER",
+            "TempOldColumnName" : "PHONE_NUMBER",
+            "ColumnName" : "PHONE_NUMBER",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "GENDER",
+            "TempOldColumnName" : "GENDER",
+            "ColumnName" : "GENDER",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "SOCIAL_SECURITY_NUMBER",
+            "TempOldColumnName" : "SOCIAL_SECURITY_NUMBER",
+            "ColumnName" : "SOCIAL_SECURITY_NUMBER",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "EDUCATION",
+            "TempOldColumnName" : "EDUCATION",
+            "ColumnName" : "EDUCATION",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "EMPLOYMENT_STATUS",
+            "TempOldColumnName" : "EMPLOYMENT_STATUS",
+            "ColumnName" : "EMPLOYMENT_STATUS",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          }, {
+            "Unicode" : false,
+            "Description" : " ",
+            "Signed" : false,
+            "Metadata" : "NVARCHAR(1024), Null",
+            "Scale" : 0,
+            "TimeScale" : 0,
+            "OldColumnName" : "MARITAL_STATUS",
+            "TempOldColumnName" : "MARITAL_STATUS",
+            "ColumnName" : "MARITAL_STATUS",
+            "Length" : 1024,
+            "MisFieldProperties" : "",
+            "DataType" : "NVARCHAR",
+            "Key" : false,
+            "Nullable" : true
+          } ],
+          "file" : [ "MORTGAGE_DATA.CSV" ],
+          "quote" : "double",
+          "writemethod" : " ",
+          "nocleanup" : " ",
+          "dataAssetName" : "MORTGAGE_DATA.CSV",
+          "runtime_column_propagation" : 0,
+          "file_format" : "sequential",
+          "registerDataAsset" : true,
+          "delim" : "','"
+        }
+      } ],
+      "id" : "418c4b89-0cd3-4ecf-ba33-2bb520dd4633",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/PxSequentialFile.svg",
+          "x_pos" : 1805.76,
+          "label" : "Sequential_file_1",
+          "y_pos" : 300.96
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "output_count" : 0,
+        "nls_map_name" : "UTF-8",
+        "input_count" : 1,
+        "execmode" : "default_seq"
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "398ffa5a-6659-47b0-9aca-02c8be7c68eb",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "67c63a57-694e-4142-af5f-dabed552b533"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "e9881b61-1f9c-45be-b8eb-16f63adffb11",
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "PxJoin",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "6164999d-f3b3-40c3-9b7b-f22490bddca3",
+          "type_attr" : "PRIMARY",
+          "id" : "548fd80c-9edb-409e-9af7-e73647b50e1b",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_4",
+                "y_pos" : -20,
+                "height" : 80
+              }, {
+                "temporary" : false,
+                "width" : 200,
+                "x_pos" : -20,
+                "id" : "dec-9",
+                "position" : "middle",
+                "label" : "168 rows\n3 rows/sec",
+                "y_pos" : 28,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkFinishedStyle___QBKP8"
+            }
+          },
+          "link_name" : "Link_4",
+          "port_id_ref" : "e7b32025-f054-44c0-a791-7b9688515ccc"
+        } ],
+        "id" : "6be50ed7-42eb-46e5-83ac-10aabd2e2c28",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 2,
+              "max" : 2147483646
+            }
+          }
+        },
+        "schema_ref" : "b0ffa8cd-fa1b-44bd-9b22-90124be1efe2",
+        "parameters" : {
+          "showPartType" : false,
+          "showCollType" : true,
+          "runtime_column_propagation" : 0,
+          "showSortOptions" : false
+        }
+      }, {
+        "links" : [ {
+          "node_id_ref" : "8fa914a4-d6f9-455e-9d0f-3e84545f6185",
+          "type_attr" : "PRIMARY",
+          "id" : "f49afc5c-9e27-44fb-af76-94d14ce59190",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/autoParition-noACP.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 5,
+                "width" : 70,
+                "tooltip" : "Auto-partition\nAutomatic column propagation is disabled for this link",
+                "x_pos" : -27,
+                "id" : "dec-6E",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_6",
+                "y_pos" : -20,
+                "height" : 80
+              }, {
+                "temporary" : false,
+                "width" : 200,
+                "x_pos" : -20,
+                "id" : "dec-9",
+                "position" : "middle",
+                "label" : "1,000 rows\n240 rows/sec",
+                "y_pos" : 28,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkFinishedStyle___QBKP8"
+            }
+          },
+          "link_name" : "Link_6",
+          "port_id_ref" : "68388d51-b3ba-4be6-aa9c-1368dd517b80"
+        } ],
+        "id" : "356f1c13-8eb2-43bc-95e1-ee2af2b6f3b3",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 2,
+              "max" : 2147483646
+            }
+          }
+        },
+        "schema_ref" : "218de486-015c-4c28-a764-182bead13b61",
+        "parameters" : {
+          "runtime_column_propagation" : 0
+        }
+      } ],
+      "id" : "b1f6de77-6136-406b-a002-e7ac43fadf0e",
+      "type" : "execution_node",
+      "app_data" : {
+        "datastage" : {
+          "inputs_order" : "6be50ed7-42eb-46e5-83ac-10aabd2e2c28|356f1c13-8eb2-43bc-95e1-ee2af2b6f3b3",
+          "outputs_order" : "398ffa5a-6659-47b0-9aca-02c8be7c68eb"
+        },
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/PxJoin.svg",
+          "x_pos" : 1283.04,
+          "label" : "Join_1",
+          "y_pos" : 300.96
+        }
+      },
+      "parameters" : {
+        "hideCaseSensitiveColumn" : true,
+        "showPartType" : true,
+        "keyProperties" : [ {
+          "key" : "EMAIL_ADDRESS"
+        } ],
+        "showCollType" : false,
+        "enableSchemalessDesign" : false,
+        "preserve" : -3,
+        "operator" : "innerjoin",
+        "inputName" : "Link_4",
+        "showSortOptions" : false,
+        "combinability" : "auto",
+        "inputcolProperties" : [ {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "ID",
+          "TempOldColumnName" : "ID",
+          "ColumnName" : "ID",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "INCOME",
+          "TempOldColumnName" : "INCOME",
+          "ColumnName" : "INCOME",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "APPLIEDONLINE",
+          "TempOldColumnName" : "APPLIEDONLINE",
+          "ColumnName" : "APPLIEDONLINE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "RESIDENCE",
+          "TempOldColumnName" : "RESIDENCE",
+          "ColumnName" : "RESIDENCE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "TempOldColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "ColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "TempOldColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "ColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NUMBER_OF_CARDS",
+          "TempOldColumnName" : "NUMBER_OF_CARDS",
+          "ColumnName" : "NUMBER_OF_CARDS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "CREDITCARD_DEBT",
+          "TempOldColumnName" : "CREDITCARD_DEBT",
+          "ColumnName" : "CREDITCARD_DEBT",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "LOANS",
+          "TempOldColumnName" : "LOANS",
+          "ColumnName" : "LOANS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "LOAN_AMOUNT",
+          "TempOldColumnName" : "LOAN_AMOUNT",
+          "ColumnName" : "LOAN_AMOUNT",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAME",
+          "TempOldColumnName" : "NAME",
+          "ColumnName" : "NAME",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "STREET_ADDRESS",
+          "TempOldColumnName" : "STREET_ADDRESS",
+          "ColumnName" : "STREET_ADDRESS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "CITY",
+          "TempOldColumnName" : "CITY",
+          "ColumnName" : "CITY",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "STATE",
+          "TempOldColumnName" : "STATE",
+          "ColumnName" : "STATE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "STATE_CODE",
+          "TempOldColumnName" : "STATE_CODE",
+          "ColumnName" : "STATE_CODE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "ZIP_CODE",
+          "TempOldColumnName" : "ZIP_CODE",
+          "ColumnName" : "ZIP_CODE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Key, Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "EMAIL_ADDRESS",
+          "TempOldColumnName" : "EMAIL_ADDRESS",
+          "ColumnName" : "EMAIL_ADDRESS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : true,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "PHONE_NUMBER",
+          "TempOldColumnName" : "PHONE_NUMBER",
+          "ColumnName" : "PHONE_NUMBER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "GENDER",
+          "TempOldColumnName" : "GENDER",
+          "ColumnName" : "GENDER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "SOCIAL_SECURITY_NUMBER",
+          "TempOldColumnName" : "SOCIAL_SECURITY_NUMBER",
+          "ColumnName" : "SOCIAL_SECURITY_NUMBER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "EDUCATION",
+          "TempOldColumnName" : "EDUCATION",
+          "ColumnName" : "EDUCATION",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "EMPLOYMENT_STATUS",
+          "TempOldColumnName" : "EMPLOYMENT_STATUS",
+          "ColumnName" : "EMPLOYMENT_STATUS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "MARITAL_STATUS",
+          "TempOldColumnName" : "MARITAL_STATUS",
+          "ColumnName" : "MARITAL_STATUS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        } ],
+        "InputlinkOrderingList" : [ {
+          "link_label" : "Left",
+          "link_name" : "Link_4"
+        }, {
+          "link_label" : "Right",
+          "link_name" : "Link_6"
+        } ],
+        "output_count" : 1,
+        "execmode" : "default_par",
+        "input_count" : 2
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "68388d51-b3ba-4be6-aa9c-1368dd517b80",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "f49afc5c-9e27-44fb-af76-94d14ce59190"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : false
+          }
+        },
+        "schema_ref" : "218de486-015c-4c28-a764-182bead13b61",
+        "parameters" : {
+          "reject_from_link" : -1,
+          "valueDerivation" : [ ],
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "postgresql-ibmcloud",
+      "inputs" : [ {
+        "id" : "",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "parameters" : {
+          "part_coll" : "part_type"
+        }
+      } ],
+      "connection" : {
+        "ref" : "d9cc8a1d-c997-4b64-8026-b745f19bb7c5",
+        "project_ref" : "b9d9ffc8-56ee-4a5c-b686-a5d9ffc77144",
+        "properties" : {
+          "_java._heap_size" : 256,
+          "currentOutputLinkType" : "PRIMARY",
+          "before_after.after_node" : "",
+          "before_after.before_node.fail_on_error" : true,
+          "before_after.after_node.fail_on_error" : true,
+          "outputAcpShouldHide" : true,
+          "before_after.before_node" : "",
+          "enableFlowAcpControl" : true,
+          "enableSchemalessDesign" : false,
+          "schema_name" : "BANKING",
+          "table_name" : "CREDIT_SCORE",
+          "before_after.before" : "",
+          "before_after.before.fail_on_error" : true,
+          "node_number" : 0,
+          "read_mode" : "general",
+          "default_max_string_binary_precision" : 20000,
+          "generate_unicode_columns" : false,
+          "before_after.after" : "",
+          "sampling_type" : "none",
+          "node_count" : 1,
+          "before_after.after.fail_on_error" : true,
+          "procParamProperties" : [ ]
+        },
+        "name" : "Data Fabric Trial - Databases for PostgreSQL"
+      },
+      "id" : "8fa914a4-d6f9-455e-9d0f-3e84545f6185",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/postgresql-ibmcloud.svg",
+          "x_pos" : 1283.04,
+          "label" : "CREDIT_SCORE_1",
+          "y_pos" : 63.36
+        }
+      },
+      "parameters" : {
+        "combinability" : "auto",
+        "spparam" : [ ],
+        "output_count" : 1,
+        "input_count" : 0,
+        "execmode" : "default_par",
+        "preserve" : -3
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "e4968117-1c46-43d0-b92f-52ccd1f68042",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "9c456eb2-e138-4a17-8fc6-6102873ee6ea"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 2147483647
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "3e585fa6-e67c-448d-a64c-7bbf62e59cdb",
+        "parameters" : {
+          "outputName" : "Link_8",
+          "valueDerivation" : [ {
+            "parsedExpression" : "Link_7.LOAN_AMOUNT + Link_7.CREDITCARD_DEBT",
+            "columnName" : "TOTALDEBT"
+          } ],
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "CTransformerStage",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "b1f6de77-6136-406b-a002-e7ac43fadf0e",
+          "type_attr" : "PRIMARY",
+          "id" : "67c63a57-694e-4142-af5f-dabed552b533",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--collection.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "width" : 50,
+                "tooltip" : "Collection",
+                "x_pos" : -15,
+                "id" : "dec-9M",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_7",
+                "y_pos" : -20,
+                "height" : 80
+              }, {
+                "temporary" : false,
+                "width" : 200,
+                "x_pos" : -20,
+                "id" : "dec-9",
+                "position" : "middle",
+                "label" : "0 rows\n0 rows/sec",
+                "y_pos" : 28,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkFinishedStyle___QBKP8"
+            }
+          },
+          "link_name" : "Link_7",
+          "port_id_ref" : "398ffa5a-6659-47b0-9aca-02c8be7c68eb"
+        } ],
+        "id" : "e0f2477f-4e69-4683-b7a2-6c3c2d7c1812",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "e9881b61-1f9c-45be-b8eb-16f63adffb11",
+        "parameters" : {
+          "keyColsColl" : [ ],
+          "part_coll" : "part_type",
+          "runtime_column_propagation" : 0
+        }
+      } ],
+      "id" : "f979b7ee-2335-45a7-a807-24db411869b4",
+      "type" : "execution_node",
+      "app_data" : {
+        "datastage" : {
+          "inputs_order" : "e0f2477f-4e69-4683-b7a2-6c3c2d7c1812",
+          "outputs_order" : "e4968117-1c46-43d0-b92f-52ccd1f68042"
+        },
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/CTransformerStage.svg",
+          "x_pos" : 1473.12,
+          "label" : "Transformer_1",
+          "y_pos" : 300.96
+        }
+      },
+      "parameters" : {
+        "BlockSizeSelectedType" : "systemSelected",
+        "StageVariables" : [ ],
+        "Triggers" : [ ],
+        "preserve" : -3,
+        "LoopVariables" : [ ],
+        "combinability" : "auto",
+        "OutputlinkOrderingList" : [ ],
+        "InputlinkOrderingList" : [ {
+          "link_label" : "0",
+          "link_name" : "Link_7"
+        } ],
+        "output_count" : 1,
+        "input_count" : 1,
+        "execmode" : "seq",
+        "SKKeySourceType" : "file",
+        "runtime_column_propagation" : false
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "dfc9f408-a3cc-4d9b-ad6d-5b4a5d70ae3e",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "e4091f34-3375-4cef-be72-df1a1ee7b98c"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 0,
+              "max" : 1
+            }
+          }
+        },
+        "schema_ref" : "11aa9bda-ef5f-4c2a-ba1c-750a2459bd95",
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "mongodb",
+      "connection" : {
+        "ref" : "7e212205-e11b-48b6-a360-ea8048c4ff26",
+        "project_ref" : "b9d9ffc8-56ee-4a5c-b686-a5d9ffc77144",
+        "fileData" : {
+          "op" : "existing-asset",
+          "fileName" : "",
+          "stageName" : "mongodb"
+        },
+        "connData" : {
+          "op" : "existing-asset",
+          "stageName" : "mongodb",
+          "connectionName" : "Data Fabric Trial - MongoDB"
+        },
+        "properties" : {
+          "outputName" : "Link_1",
+          "read_mode" : "general",
+          "valueDerivation" : [ ],
+          "stageDescription" : "",
+          "schema_name" : "DOCUMENT",
+          "table_name" : "DS_INTEREST_RATES",
+          "url" : ""
+        },
+        "name" : "Data Fabric Trial - MongoDB"
+      },
+      "id" : "3e1ab579-e27b-4f9f-92c8-5b19e93cdd6a",
+      "type" : "binding",
+      "app_data" : {
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/mongodb.svg",
+          "x_pos" : 1631.52,
+          "label" : "DS_INTEREST_RATES_1",
+          "y_pos" : 79.2
+        }
+      },
+      "parameters" : {
+        "output_count" : 1,
+        "input_count" : 0,
+        "execmode" : "default_par",
+        "outputcolProperties" : [ {
+          "ColumnName" : "_ID",
+          "Description" : " ",
+          "Length" : 24,
+          "Signed" : false,
+          "Nullable_check" : false,
+          "Metadata" : "VARCHAR(24)",
+          "DataType" : "VARCHAR",
+          "Scale" : 0,
+          "Key" : false
+        }, {
+          "ColumnName" : "STARTING_LIMIT",
+          "Description" : " ",
+          "Length" : 255,
+          "Signed" : false,
+          "Nullable_check" : true,
+          "Metadata" : "VARCHAR(255), Null",
+          "DataType" : "VARCHAR",
+          "Scale" : 0,
+          "Key" : false
+        }, {
+          "ColumnName" : "ENDING_LIMIT",
+          "Description" : " ",
+          "Length" : 255,
+          "Signed" : false,
+          "Nullable_check" : true,
+          "Metadata" : "VARCHAR(255), Null",
+          "DataType" : "VARCHAR",
+          "Scale" : 0,
+          "Key" : false
+        }, {
+          "ColumnName" : "RATE",
+          "Description" : " ",
+          "Length" : 255,
+          "Signed" : false,
+          "Nullable_check" : true,
+          "Metadata" : "VARCHAR(255), Null",
+          "DataType" : "VARCHAR",
+          "Scale" : 0,
+          "Key" : false
+        } ]
+      }
+    }, {
+      "outputs" : [ {
+        "id" : "a394e117-1047-4746-b089-8c8aa72cc6ab",
+        "app_data" : {
+          "datastage" : {
+            "is_source_of_link" : "53636134-a356-4c96-bf6a-424735b1ed88"
+          },
+          "ui_data" : {
+            "label" : "outPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 2
+            }
+          },
+          "additionalProperties" : {
+            "enableAcp" : true
+          }
+        },
+        "schema_ref" : "b0843162-6596-42ec-a02b-797fc2f26183",
+        "parameters" : {
+          "buf_mode" : "default"
+        }
+      } ],
+      "op" : "PxLookup",
+      "inputs" : [ {
+        "links" : [ {
+          "node_id_ref" : "f979b7ee-2335-45a7-a807-24db411869b4",
+          "type_attr" : "PRIMARY",
+          "id" : "9c456eb2-e138-4a17-8fc6-6102873ee6ea",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--specific-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "width" : 50,
+                "tooltip" : "Specific partition",
+                "x_pos" : -15,
+                "id" : "dec-9C",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_9",
+                "y_pos" : -20,
+                "height" : 80
+              }, {
+                "temporary" : false,
+                "width" : 200,
+                "x_pos" : -20,
+                "id" : "dec-9",
+                "position" : "middle",
+                "label" : "0 rows\n0 rows/sec",
+                "y_pos" : 28,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkFinishedStyle___QBKP8"
+            }
+          },
+          "link_name" : "Link_9",
+          "port_id_ref" : "e4968117-1c46-43d0-b92f-52ccd1f68042"
+        } ],
+        "id" : "277ddda4-9157-4ab8-a7e5-4930cff0c41a",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 2147483647
+            }
+          }
+        },
+        "schema_ref" : "3e585fa6-e67c-448d-a64c-7bbf62e59cdb",
+        "parameters" : {
+          "showPartType" : false,
+          "allow_dups" : " ",
+          "showCollType" : true,
+          "lookupDerivation" : [ {
+            "parsedExpression" : "Range(Link_11.ENDING_LIMIT, \"<=\", Link_11.STARTING_LIMIT, \">=\",0)",
+            "keyType" : "2",
+            "columnName" : "CREDIT_SCORE"
+          } ],
+          "showSortOptions" : false
+        }
+      }, {
+        "links" : [ {
+          "node_id_ref" : "3e1ab579-e27b-4f9f-92c8-5b19e93cdd6a",
+          "type_attr" : "REFERENCE",
+          "id" : "e4091f34-3375-4cef-be72-df1a1ee7b98c",
+          "app_data" : {
+            "datastage" : { },
+            "ui_data" : {
+              "decorations" : [ {
+                "image" : "/data-intg/flows/graphics/flows/link-output-handle--default-selected.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 0,
+                "x_pos" : -10,
+                "id" : "dec-3",
+                "position" : "source",
+                "y_pos" : -10,
+                "class_name" : "linkStartImage"
+              }, {
+                "image" : "/data-intg/flows/graphics/flows/link-marking--auto-partitioning.svg",
+                "temporary" : false,
+                "outline" : false,
+                "distance" : 2,
+                "width" : 50,
+                "tooltip" : "Auto-partition",
+                "x_pos" : -15,
+                "id" : "dec-6R",
+                "position" : "middle",
+                "y_pos" : 4,
+                "height" : 50
+              }, {
+                "temporary" : false,
+                "label_allow_return_key" : "save",
+                "label_single_line" : true,
+                "width" : 100,
+                "label_editable" : true,
+                "x_pos" : -18,
+                "id" : "dec-8",
+                "position" : "middle",
+                "label" : "Link_11",
+                "y_pos" : -20,
+                "height" : 80
+              }, {
+                "temporary" : false,
+                "width" : 200,
+                "x_pos" : -20,
+                "id" : "dec-9",
+                "position" : "middle",
+                "label" : "3 rows\n1 row/sec",
+                "y_pos" : 28,
+                "height" : 80
+              } ],
+              "class_name" : "linkStyle__referenceRunMetricsLinkFinishedStyle___xpXyo"
+            }
+          },
+          "link_name" : "Link_11",
+          "port_id_ref" : "dfc9f408-a3cc-4d9b-ad6d-5b4a5d70ae3e"
+        } ],
+        "id" : "37ee5ac9-4a50-4ebd-9b53-3c5ddd572827",
+        "app_data" : {
+          "ui_data" : {
+            "label" : "inPort",
+            "cardinality" : {
+              "min" : 1,
+              "max" : 2147483647
+            }
+          }
+        },
+        "schema_ref" : "11aa9bda-ef5f-4c2a-ba1c-750a2459bd95",
+        "parameters" : {
+          "allow_dups" : "allow_dups",
+          "lookupDerivation" : [ ],
+          "conditionNotMet" : "fail",
+          "lookupFail" : "fail"
+        }
+      } ],
+      "id" : "8f00fa15-65ed-4051-a0cd-e817c46c7ff8",
+      "type" : "execution_node",
+      "app_data" : {
+        "datastage" : {
+          "inputs_order" : "277ddda4-9157-4ab8-a7e5-4930cff0c41a|37ee5ac9-4a50-4ebd-9b53-3c5ddd572827",
+          "outputs_order" : "a394e117-1047-4746-b089-8c8aa72cc6ab"
+        },
+        "ui_data" : {
+          "image" : "/data-intg/flows/graphics/palette/PxLookup.svg",
+          "x_pos" : 1631.52,
+          "label" : "Lookup_1",
+          "y_pos" : 300.96
+        }
+      },
+      "parameters" : {
+        "showPartType" : true,
+        "keyRfLinkLink_9EMAIL_ADDRESSLink_11" : false,
+        "keyRfLinkLink_9CREDIT_SCORELink_11" : true,
+        "showCollType" : false,
+        "primaryKeyLink_9CREDIT_SCORE" : true,
+        "enableSchemalessDesign" : false,
+        "primaryKeyColumnNameTextPanelLink_9CREDIT_SCORE" : "Key column: CREDIT_SCORE",
+        "preserve" : -3,
+        "primaryKeyColumnsItemsLink_9" : [ "CREDIT_SCORE" ],
+        "inputName" : "Link_9",
+        "showSortOptions" : false,
+        "combinability" : "auto",
+        "inputcolProperties" : [ {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "ID",
+          "TempOldColumnName" : "ID",
+          "ColumnName" : "ID",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "INCOME",
+          "TempOldColumnName" : "INCOME",
+          "ColumnName" : "INCOME",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "APPLIEDONLINE",
+          "TempOldColumnName" : "APPLIEDONLINE",
+          "ColumnName" : "APPLIEDONLINE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "RESIDENCE",
+          "TempOldColumnName" : "RESIDENCE",
+          "ColumnName" : "RESIDENCE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "TempOldColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "ColumnName" : "YRS_AT_CURRENT_ADDRESS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "TempOldColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "ColumnName" : "YRS_WITH_CURRENT_EMPLOYER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NUMBER_OF_CARDS",
+          "TempOldColumnName" : "NUMBER_OF_CARDS",
+          "ColumnName" : "NUMBER_OF_CARDS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "CREDITCARD_DEBT",
+          "TempOldColumnName" : "CREDITCARD_DEBT",
+          "ColumnName" : "CREDITCARD_DEBT",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "LOANS",
+          "TempOldColumnName" : "LOANS",
+          "ColumnName" : "LOANS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "LOAN_AMOUNT",
+          "TempOldColumnName" : "LOAN_AMOUNT",
+          "ColumnName" : "LOAN_AMOUNT",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "NAME",
+          "TempOldColumnName" : "NAME",
+          "ColumnName" : "NAME",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "STREET_ADDRESS",
+          "TempOldColumnName" : "STREET_ADDRESS",
+          "ColumnName" : "STREET_ADDRESS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "CITY",
+          "TempOldColumnName" : "CITY",
+          "ColumnName" : "CITY",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "STATE",
+          "TempOldColumnName" : "STATE",
+          "ColumnName" : "STATE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "STATE_CODE",
+          "TempOldColumnName" : "STATE_CODE",
+          "ColumnName" : "STATE_CODE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "ZIP_CODE",
+          "TempOldColumnName" : "ZIP_CODE",
+          "ColumnName" : "ZIP_CODE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Key, Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "EMAIL_ADDRESS",
+          "TempOldColumnName" : "EMAIL_ADDRESS",
+          "ColumnName" : "EMAIL_ADDRESS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : true,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "PHONE_NUMBER",
+          "TempOldColumnName" : "PHONE_NUMBER",
+          "ColumnName" : "PHONE_NUMBER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "GENDER",
+          "TempOldColumnName" : "GENDER",
+          "ColumnName" : "GENDER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "SOCIAL_SECURITY_NUMBER",
+          "TempOldColumnName" : "SOCIAL_SECURITY_NUMBER",
+          "ColumnName" : "SOCIAL_SECURITY_NUMBER",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "EDUCATION",
+          "TempOldColumnName" : "EDUCATION",
+          "ColumnName" : "EDUCATION",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "EMPLOYMENT_STATUS",
+          "TempOldColumnName" : "EMPLOYMENT_STATUS",
+          "ColumnName" : "EMPLOYMENT_STATUS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "NVARCHAR(1024), Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "MARITAL_STATUS",
+          "TempOldColumnName" : "MARITAL_STATUS",
+          "ColumnName" : "MARITAL_STATUS",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "NVARCHAR",
+          "Key" : false,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : false,
+          "Metadata" : "VARCHAR(1024), Key, Null",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "CREDIT_SCORE",
+          "TempOldColumnName" : "CREDIT_SCORE",
+          "ColumnName" : "CREDIT_SCORE",
+          "Length" : 1024,
+          "MisFieldProperties" : "",
+          "DataType" : "VARCHAR",
+          "Key" : true,
+          "Nullable" : true
+        }, {
+          "Unicode" : false,
+          "Description" : " ",
+          "Signed" : true,
+          "Metadata" : "CHAR(100)",
+          "Scale" : 0,
+          "TimeScale" : 0,
+          "OldColumnName" : "TOTALDEBT",
+          "TempOldColumnName" : "TOTALDEBT",
+          "ColumnName" : "TOTALDEBT",
+          "Length" : 100,
+          "MisFieldProperties" : "",
+          "DataType" : "CHAR",
+          "Key" : false,
+          "Nullable" : false
+        } ],
+        "keyRfLinkLink_9EMAIL_ADDRESSempty" : true,
+        "referenceLinksLink_9CREDIT_SCORE" : "Link_11",
+        "InputlinkOrderingList" : [ {
+          "link_label" : "Primary",
+          "link_name" : "Link_9"
+        }, {
+          "link_label" : "Lookup 1",
+          "link_name" : "Link_11"
+        } ],
+        "output_count" : 1,
+        "execmode" : "default_par",
+        "input_count" : 2,
+        "keyRfLinkLink_9CREDIT_SCOREempty" : false,
+        "primaryKeyLink_9EMAIL_ADDRESS" : false,
+        "hasPrimaryLink" : true
+      }
+    } ],
+    "description" : "",
+    "id" : "c1f4b725-2ff1-470d-8f31-07e0c739b745",
+    "app_data" : {
+      "ui_data" : {
+        "comments" : [ ]
+      }
+    },
+    "runtime_ref" : "pxOsh"
+  } ],
+  "external_paramsets" : [ ],
+  "json_schema" : "https://api.dataplatform.ibm.com/schemas/common-pipeline/pipeline-flow/pipeline-flow-v3-schema.json",
+  "schemas" : [ {
+    "id" : "d26f0e68-50c2-4768-8a4e-718fdc0f0929",
+    "fields" : [ {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.ID",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ID",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false
+      }
+    }, {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.NAME",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAME",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false
+      }
+    }, {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.STREET_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STREET_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false
+      }
+    }, {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.CITY",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CITY",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false
+      }
+    }, {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.STATE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false
+      }
+    }, {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.STATE_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE_CODE",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false
+      }
+    }, {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.ZIP_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ZIP_CODE",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false
+      }
+    }, {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.EMAIL_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMAIL_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false
+      }
+    }, {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.CREDIT_SCORE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CREDIT_SCORE",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false
+      }
+    } ]
+  }, {
+    "id" : "d6a574ee-84f8-4793-b413-945e3c3a21f6",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ID",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INCOME",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "APPLIEDONLINE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "RESIDENCE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_AT_CURRENT_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_WITH_CURRENT_EMPLOYER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NUMBER_OF_CARDS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CREDITCARD_DEBT",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOANS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOAN_AMOUNT",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    } ]
+  }, {
+    "id" : "11a09938-47f9-4040-87f9-7e65f9895151",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ID",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAME",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STREET_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CITY",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE_CODE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ZIP_CODE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMAIL_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "PHONE_NUMBER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "GENDER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "SOCIAL_SECURITY_NUMBER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EDUCATION",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMPLOYMENT_STATUS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MARITAL_STATUS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    } ]
+  }, {
+    "id" : "61f6f538-a4aa-4ba1-9850-6a5c8f38651b",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.ID",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ID",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.INCOME",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INCOME",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.APPLIEDONLINE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "APPLIEDONLINE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.RESIDENCE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "RESIDENCE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.YRS_AT_CURRENT_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_AT_CURRENT_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.YRS_WITH_CURRENT_EMPLOYER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_WITH_CURRENT_EMPLOYER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.NUMBER_OF_CARDS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NUMBER_OF_CARDS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.CREDITCARD_DEBT",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CREDITCARD_DEBT",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.LOANS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOANS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_1.LOAN_AMOUNT",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOAN_AMOUNT",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.NAME",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAME",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.STREET_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STREET_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.CITY",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CITY",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.STATE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.STATE_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE_CODE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.ZIP_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ZIP_CODE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : true,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.EMAIL_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMAIL_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.PHONE_NUMBER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "PHONE_NUMBER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.GENDER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "GENDER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.SOCIAL_SECURITY_NUMBER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "SOCIAL_SECURITY_NUMBER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.EDUCATION",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EDUCATION",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.EMPLOYMENT_STATUS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMPLOYMENT_STATUS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_2.MARITAL_STATUS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MARITAL_STATUS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    } ]
+  }, {
+    "id" : "b0ffa8cd-fa1b-44bd-9b22-90124be1efe2",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.ID",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ID",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.INCOME",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INCOME",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.APPLIEDONLINE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "APPLIEDONLINE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.RESIDENCE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "RESIDENCE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.YRS_AT_CURRENT_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_AT_CURRENT_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.YRS_WITH_CURRENT_EMPLOYER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_WITH_CURRENT_EMPLOYER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.NUMBER_OF_CARDS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NUMBER_OF_CARDS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.CREDITCARD_DEBT",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CREDITCARD_DEBT",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.LOANS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOANS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.LOAN_AMOUNT",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOAN_AMOUNT",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.NAME",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAME",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.STREET_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STREET_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.CITY",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CITY",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.STATE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.STATE_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE_CODE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.ZIP_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ZIP_CODE",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : true,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.EMAIL_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMAIL_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.PHONE_NUMBER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "PHONE_NUMBER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.GENDER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "GENDER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.SOCIAL_SECURITY_NUMBER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "SOCIAL_SECURITY_NUMBER",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.EDUCATION",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EDUCATION",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.EMPLOYMENT_STATUS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMPLOYMENT_STATUS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_3.MARITAL_STATUS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MARITAL_STATUS",
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    } ]
+  }, {
+    "id" : "e9881b61-1f9c-45be-b8eb-16f63adffb11",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.ID",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ID",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.INCOME",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INCOME",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.APPLIEDONLINE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "APPLIEDONLINE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.RESIDENCE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "RESIDENCE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.YRS_AT_CURRENT_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_AT_CURRENT_ADDRESS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.YRS_WITH_CURRENT_EMPLOYER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_WITH_CURRENT_EMPLOYER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.NUMBER_OF_CARDS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NUMBER_OF_CARDS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.CREDITCARD_DEBT",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CREDITCARD_DEBT",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.LOANS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOANS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.LOAN_AMOUNT",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOAN_AMOUNT",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.NAME",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAME",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.STREET_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STREET_ADDRESS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.CITY",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CITY",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.STATE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.STATE_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE_CODE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.ZIP_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ZIP_CODE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : true,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.EMAIL_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMAIL_ADDRESS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.PHONE_NUMBER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "PHONE_NUMBER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.GENDER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "GENDER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.SOCIAL_SECURITY_NUMBER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "SOCIAL_SECURITY_NUMBER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.EDUCATION",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EDUCATION",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.EMPLOYMENT_STATUS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMPLOYMENT_STATUS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_4.MARITAL_STATUS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MARITAL_STATUS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_6.CREDIT_SCORE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CREDIT_SCORE",
+      "isSelected" : false,
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    } ]
+  }, {
+    "id" : "218de486-015c-4c28-a764-182bead13b61",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ID",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAME",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STREET_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CITY",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE_CODE",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ZIP_CODE",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : true,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMAIL_ADDRESS",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : true,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CREDIT_SCORE",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    } ]
+  }, {
+    "id" : "3e585fa6-e67c-448d-a64c-7bbf62e59cdb",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.ID",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ID",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.INCOME",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INCOME",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.APPLIEDONLINE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "APPLIEDONLINE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.RESIDENCE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "RESIDENCE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.YRS_AT_CURRENT_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_AT_CURRENT_ADDRESS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.YRS_WITH_CURRENT_EMPLOYER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_WITH_CURRENT_EMPLOYER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.NUMBER_OF_CARDS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NUMBER_OF_CARDS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.CREDITCARD_DEBT",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CREDITCARD_DEBT",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.LOANS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOANS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.LOAN_AMOUNT",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOAN_AMOUNT",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.NAME",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAME",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.STREET_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STREET_ADDRESS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.CITY",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CITY",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.STATE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.STATE_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE_CODE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.ZIP_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ZIP_CODE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : true,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.EMAIL_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMAIL_ADDRESS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.PHONE_NUMBER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "PHONE_NUMBER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.GENDER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "GENDER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.SOCIAL_SECURITY_NUMBER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "SOCIAL_SECURITY_NUMBER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.EDUCATION",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EDUCATION",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.EMPLOYMENT_STATUS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMPLOYMENT_STATUS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.MARITAL_STATUS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MARITAL_STATUS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : true,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_7.CREDIT_SCORE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CREDIT_SCORE",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "max_length" : 100,
+        "is_signed" : true
+      },
+      "nullable" : false,
+      "name" : "TOTALDEBT",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "CHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    } ]
+  }, {
+    "id" : "b0843162-6596-42ec-a02b-797fc2f26183",
+    "fields" : [ {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.ID",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ID",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.INCOME",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "INCOME",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.APPLIEDONLINE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "APPLIEDONLINE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.RESIDENCE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "RESIDENCE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.YRS_AT_CURRENT_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_AT_CURRENT_ADDRESS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.YRS_WITH_CURRENT_EMPLOYER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "YRS_WITH_CURRENT_EMPLOYER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.NUMBER_OF_CARDS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NUMBER_OF_CARDS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.CREDITCARD_DEBT",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CREDITCARD_DEBT",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.LOANS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOANS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.LOAN_AMOUNT",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "LOAN_AMOUNT",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.NAME",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "NAME",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.STREET_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STREET_ADDRESS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.CITY",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CITY",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.STATE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.STATE_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STATE_CODE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.ZIP_CODE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ZIP_CODE",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : true,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.EMAIL_ADDRESS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMAIL_ADDRESS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.PHONE_NUMBER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "PHONE_NUMBER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.GENDER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "GENDER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.SOCIAL_SECURITY_NUMBER",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "SOCIAL_SECURITY_NUMBER",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.EDUCATION",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EDUCATION",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.EMPLOYMENT_STATUS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "EMPLOYMENT_STATUS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.MARITAL_STATUS",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "MARITAL_STATUS",
+      "isSelected" : false,
+      "type" : "string",
+      "app_data" : {
+        "data_element_name" : "",
+        "time_scale" : 0,
+        "odbc_type" : "WVARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : true,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.CREDIT_SCORE",
+        "max_length" : 1024,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "CREDIT_SCORE",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_9.TOTALDEBT",
+        "max_length" : 100,
+        "is_signed" : true
+      },
+      "nullable" : false,
+      "name" : "TOTALDEBT",
+      "type" : "string",
+      "app_data" : {
+        "odbc_type" : "CHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "item_index" : 0,
+        "is_key" : false,
+        "min_length" : 0,
+        "decimal_scale" : 0,
+        "decimal_precision" : 0,
+        "description" : " ",
+        "source_field_id" : "Link_11.RATE",
+        "max_length" : 255,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "RATE",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      },
+      "type" : "string"
+    } ]
+  }, {
+    "id" : "11aa9bda-ef5f-4c2a-ba1c-750a2459bd95",
+    "fields" : [ {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "max_length" : 24,
+        "is_signed" : false
+      },
+      "nullable" : false,
+      "name" : "_ID",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "max_length" : 255,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "STARTING_LIMIT",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "max_length" : 255,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "ENDING_LIMIT",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    }, {
+      "metadata" : {
+        "is_key" : false,
+        "decimal_scale" : 0,
+        "description" : " ",
+        "max_length" : 255,
+        "is_signed" : false
+      },
+      "nullable" : true,
+      "name" : "RATE",
+      "type" : "string",
+      "app_data" : {
+        "time_scale" : 0,
+        "odbc_type" : "VARCHAR",
+        "is_unicode_string" : false,
+        "type_code" : "STRING"
+      }
+    } ]
+  } ],
+  "doc_type" : "pipeline",
+  "id" : "6fdaad94-0c85-47f5-8106-f645210ad374",
+  "app_data" : {
+    "datastage" : {
+      "timestamp_format" : "",
+      "decimal_separator" : "",
+      "flowRunPriorityQueue" : "Medium",
+      "time_format" : "",
+      "message_handlers" : [ ],
+      "date_format" : "",
+      "version" : "3.0.5"
+    },
+    "additionalProperties" : {
+      "transInputLinkMapper" : {
+        "f979b7ee-2335-45a7-a807-24db411869b4" : "Link_7"
+      },
+      "ELTDropdown" : {
+        "id" : "nesting",
+        "label" : "Generate nested SQL",
+        "value" : "NESTED_QUERY"
+      },
+      "saveChangeFrequency" : "save_changes_automatically",
+      "disableParamsCacheOnFlow" : false,
+      "rcpLinkList" : [ ],
+      "globalAcp" : true,
+      "enableRCP" : false,
+      "isNewTransActive" : false,
+      "enableSchemaLessDesign" : false,
+      "runMode" : "ETL"
+    }
+  },
+  "version" : "3.0",
+  "parameters" : {
+    "local_parameters" : [ ]
+  }
+}

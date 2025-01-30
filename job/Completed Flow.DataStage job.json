@@ -1,0 +1,35 @@
+{
+  "metadata" : {
+    "name" : "Completed Flow.DataStage job",
+    "asset_id" : "070f8621-48c3-4002-85ff-95e3f7f11c8e",
+    "owner_id" : "1000331001",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref_type" : "data_intg_flow",
+      "configuration" : {
+        "env_variables" : [ ],
+        "flow_limits" : {
+          "warn_limit" : 100
+        },
+        "runPriorityQueue" : "Medium",
+        "env_id" : "a9c13b75-4fef-431a-bce2-5893102c04e5",
+        "env_type" : "datastage"
+      },
+      "last_run_initiator" : "deprecated field",
+      "last_run_time" : "deprecated field",
+      "last_run_status" : "deprecated field",
+      "last_run_status_timestamp" : 0,
+      "future_scheduled_runs" : [ ],
+      "enable_notifications" : true,
+      "project_name" : "Data Integration Demo",
+      "asset_ref" : "f47d5728-b089-4d57-8283-629d86c6c81e",
+      "parameter_sets" : [ ],
+      "schedule_id" : "",
+      "schedule_creator_id" : "",
+      "data_assets_array" : [ "MORTGAGE_DATA.CSV=MORTGAGE_DATA.CSV=df5969df-4acd-46f6-9869-782f39a81d35" ],
+      "flow_name" : "Completed Flow"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "metadata" : {
+    "name" : "Data Integration.DataStage job",
+    "asset_id" : "74e72e9a-fa91-45d3-9d2b-4983ec9c0d72",
+    "owner_id" : "1000331001",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref_type" : "data_intg_flow",
+      "configuration" : {
+        "env_variables" : [ ],
+        "flow_limits" : {
+          "warn_limit" : 100
+        },
+        "env_type" : ""
+      },
+      "last_run_initiator" : "deprecated field",
+      "last_run_time" : "deprecated field",
+      "last_run_status" : "deprecated field",
+      "last_run_status_timestamp" : 0,
+      "future_scheduled_runs" : [ ],
+      "enable_notifications" : true,
+      "project_name" : "Data Integration Demo",
+      "asset_ref" : "3a93044c-c08b-4b0c-92ca-b5a28cf0fcbd",
+      "schedule_id" : "",
+      "schedule_creator_id" : "",
+      "flow_name" : "Data Integration"
+    }
+  }
+}

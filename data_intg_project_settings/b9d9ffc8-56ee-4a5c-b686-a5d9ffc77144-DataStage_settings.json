@@ -1,0 +1,51 @@
+{
+  "project" : {
+    "runMessageHandlerId" : "",
+    "formatDecimalSeparator" : "",
+    "testDataBasePath" : "",
+    "jobNameSuffix" : ".DataStage job",
+    "sequenceNameSuffix" : ".DataStage sequence",
+    "defineParameters" : false,
+    "runEnvironmentId" : "a9c13b75-4fef-431a-bce2-5893102c04e5",
+    "runPriorityQueue" : "Medium",
+    "runArtifactRetention" : {
+      "enabled" : false
+    },
+    "runRemoteEngineEnforcement" : false,
+    "testDataProperties" : {
+      "testCaseJobNameSuffix" : ".DataStageTestCase Job",
+      "testDataConnectionType" : "Storage Volume"
+    },
+    "saveFrequency" : "save_changes_automatically",
+    "gitIntegration" : {
+      "enableGit" : true,
+      "gitProvider" : "git",
+      "gitFolder" : "",
+      "gitToken" : "{dsnextenc}b8CRxNzgBl88Shp9CgJgJne1ZnHZ0s9SUjEEOCx7QrMNYq5lc/pT25EkOQr29GWv",
+      "gitURL" : "https://github.com/aminabougallala/githubdatastage.git",
+      "gitBranch" : "main"
+    },
+    "formatTimeString" : "",
+    "thresholdLimits" : { },
+    "formatDateString" : "",
+    "flowLimits" : {
+      "warnLimit" : 100
+    },
+    "testDataConnectionId" : "",
+    "nlsCollate" : "OFF",
+    "metricsRepository" : {
+      "enableMetrics" : false,
+      "metricsRetention" : {
+        "enabled" : false
+      },
+      "connection" : {
+        "datasource_type" : "e1c23729-99d8-4407-b3df-336e33ffdc82"
+      },
+      "enableAdvancedFind" : false
+    },
+    "disableParamsRefreshCache" : false,
+    "nlsMap" : "",
+    "formatTimestampString" : "",
+    "runEnvironmentNames" : [ "default_datastage_px" ]
+  }
+}

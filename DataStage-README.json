@@ -1,0 +1,93 @@
+{
+  "project" : "Data Integration Demo",
+  "projectId" : "b9d9ffc8-56ee-4a5c-b686-a5d9ffc77144",
+  "created_by" : "cpadmin",
+  "created_at" : "2025-01-30T15:37:19.941229551Z",
+  "environment" : "cp4d",
+  "services_info" : [ {
+    "name" : "ds-canvas",
+    "version" : "510.0.59"
+  }, {
+    "name" : "ds-flows",
+    "version" : "510.0.27"
+  }, {
+    "name" : "ds-codegen",
+    "version" : "510.0.27"
+  }, {
+    "name" : "ds-flow-runtime",
+    "version" : "510.0.7"
+  }, {
+    "name" : "ds-migration",
+    "version" : "510.0.30"
+  }, {
+    "name" : "DSAssets",
+    "version" : "510.0.5"
+  }, {
+    "name" : "ds-cas-lite",
+    "version" : "510.0.3"
+  }, {
+    "name" : "ds-px-runtime",
+    "version" : "510.0.22"
+  }, {
+    "name" : "qs-ruleset",
+    "version" : "510.0.5"
+  } ],
+  "assets" : [ {
+    "name" : "Data Integration",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "Data Fabric Trial - MongoDB",
+    "type" : "connection"
+  }, {
+    "name" : "DataQuack - Db2",
+    "type" : "connection"
+  }, {
+    "name" : "DataQuack - MariaDB",
+    "type" : "connection"
+  }, {
+    "name" : "Completed Flow.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "Data Fabric Trial - Db2 Warehouse",
+    "type" : "connection"
+  }, {
+    "name" : "default_datastage_px",
+    "type" : "environment"
+  }, {
+    "name" : "DataQuack - Microsoft SQL Server",
+    "type" : "connection"
+  }, {
+    "name" : "b9d9ffc8-56ee-4a5c-b686-a5d9ffc77144-DataStage_settings",
+    "type" : "data_intg_project_settings"
+  }, {
+    "name" : "Data Integration",
+    "type" : "px_executables",
+    "location" : "Data Integration"
+  }, {
+    "name" : "Completed Flow",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "Data Fabric Trial - Databases for PostgreSQL",
+    "type" : "connection"
+  }, {
+    "name" : "Completed Flow",
+    "type" : "px_executables",
+    "location" : "Completed Flow"
+  }, {
+    "name" : "DataQuack - MySQL",
+    "type" : "connection"
+  }, {
+    "name" : "DataQuack - Informix",
+    "type" : "connection"
+  }, {
+    "name" : "Data Integration.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "DataQuack - MongoDB",
+    "type" : "connection"
+  }, {
+    "name" : "DataQuack - PostgreSQL",
+    "type" : "connection"
+  } ],
+  "flow_job_mapping" : [ ]
+}
